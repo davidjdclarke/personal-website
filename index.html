@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Index</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+
+    <div class="nav-wrapper">
+      <div class="left-side">
+        <div class="nav-link-wrapper">
+          <a href="index.html">Home</a>
+        </div>
+        <div class="nav-link-wrapper">
+          <a href="about.html">About</a>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="brand">
+          DAVID CLARKE
+        </div>
+      </div>
+    </div>
+
+    <div class="content-wrapper">
+      <div class="portfolio-items-wrapper">
+
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url(images/chess.jpeg)"></div>
+
+          <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+              <img src="images/logos/quip.png" alt="">
+            </div>
+
+            <div class="subtitle">I built a Chess Engine and GUI from scratch using Python.  Trained a Nueral Network to learn how to play high level Chess.</div>
+          </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url(images/6502.jpg)"></div>
+          <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+              <img src="images/logos/devcamp.png" alt="">
+            </div>
+
+            <div class="subtitle">Built an 8-Bit Bread-Board Computer using a 6502 Microprocessor.</div>
+          </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url(images/desk.jpg)"></div>
+          <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+              <img src="images/logos/eventbrite.png" alt="">
+            </div>
+
+            <div class="subtitle">Designed and built a desk consisting of a Cherry Wood Top and two side pedestals from scratch.</div>
+          </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url(images/elections.jpeg)"></div>
+          <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+              <img src="images/logos/shop-hacker.png" alt="">
+            </div>
+
+            <div class="subtitle">Worked for Dominion Voting Systems as Electrical Engineer prior too and during the 2020 US General Election.  While a full-time student at Ryerson University.</div>
+          </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url(images/motorcycle.jpeg)"></div>
+          <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+              <img src="images/logos/crondose.png" alt="">
+            </div>
+
+            <div class="subtitle">Motorcycle Telemetry Application, to track and record user driving metrics and apply machine learning to gauge saftey of driving practices, and offer safe drivers discount insurance premiums.</div>
+          </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url(images/devtracker.jpeg)"></div>
+          <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+              <img src="images/logos/dailysmarty.png" alt="">
+            </div>
+
+            <div class="subtitle">A Web Application to help companies track and manage their Hardware Development in a scalable and operations focused enviorment.</div>
+          </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url(images/portfolio7.jpg)"></div>
+          <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+              <img src="images/logos/dashtrack.png" alt="">
+            </div>
+
+            <div class="subtitle">What you track improves. DashTrack is a journal that makes it easy to track your daily tasks and make the most
+              of your time each day.</div>
+          </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url(images/portfolio8.jpg)"></div>
+          <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+              <img src="images/logos/devtrunk.png" alt="">
+            </div>
+
+            <div class="subtitle">Online shop for developer happiness.</div>
+          </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url(images/portfolio9.jpg)"></div>
+          <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+              <img src="images/logos/edutechional.png" alt="">
+            </div>
+
+            <div class="subtitle">Online technology tutorials.</div>
+          </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url(images/portfolio10.jpg)"></div>
+          <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+              <img src="images/logos/ministry-safe.png" alt="">
+            </div>
+
+            <div class="subtitle">A complete child safety system for organizations.</div>
+          </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url(images/portfolio11.jpg)"></div>
+          <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+              <img src="images/logos/open-devos.png" alt="">
+            </div>
+
+            <div class="subtitle">Publish and share daily devotionals.</div>
+          </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url(images/portfolio12.jpg)"></div>
+          <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+              <img src="images/logos/toastability.png" alt="">
+            </div>
+
+            <div class="subtitle">Easy way to manage the digital life of your bar or restaurant.</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</body>
+
+<script>
+  const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper');
+
+  portfolioItems.forEach(portfolioItem => {
+    portfolioItem.addEventListener('mouseover', () => {
+      portfolioItem.childNodes[1].classList.add('img-darken');
+    })
+  })
+  portfolioItems.forEach(portfolioItem => {
+    portfolioItem.addEventListener('mouseout', () => {
+      portfolioItem.childNodes[1].classList.remove('img-darken');
+    })
+  })
+</script>
+
+</html>
